@@ -1,0 +1,165 @@
+{
+    "title": "SFLIGHT 1",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1471,
+            "height": 1324,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:4004/travel_processor/webapp/index.html?sap-language=en",
+                    "title": ""
+                }
+            ],
+            "url": "http://localhost:4004/travel_processor/webapp/index.html?sap-language=en"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-vhi"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterField::to_Agency_AgencyID-inner-vhi\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-vhi"
+                ]
+            ],
+            "offsetY": 12,
+            "offsetX": 16
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-vhi",
+                "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterField::to_Agency_AgencyID-inner-vhi\"]",
+                "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:to_Agency_AgencyID-inner-vhi"
+            ],
+            "offsetX": 12,
+            "offsetY": 10
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterFieldValueHelp\\:\\:to_Agency_AgencyID\\:\\:Dialog\\:\\:qualifier\\:\\:\\:\\:Table-innerTable-rowsel1"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterFieldValueHelp::to_Agency_AgencyID::Dialog::qualifier::::Table-innerTable-rowsel1\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterFieldValueHelp\\:\\:to_Agency_AgencyID\\:\\:Dialog\\:\\:qualifier\\:\\:\\:\\:Table-innerTable-rowsel1"
+                ]
+            ],
+            "offsetY": 24,
+            "offsetX": 19
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#__dialog0-ok-BDI-content"
+                ],
+                [
+                    "xpath///*[@id=\"__dialog0-ok-BDI-content\"]"
+                ],
+                [
+                    "pierce/#__dialog0-ok-BDI-content"
+                ],
+                [
+                    "text/OK"
+                ]
+            ],
+            "offsetY": 7.5,
+            "offsetX": 11.046875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:TravelStatus_code-inner-vhi"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel::FilterField::TravelStatus_code-inner-vhi\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel\\:\\:FilterField\\:\\:TravelStatus_code-inner-vhi"
+                ]
+            ],
+            "offsetY": 13,
+            "offsetX": 18
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "text/Open"
+            ],
+            "offsetX": 45.8125,
+            "offsetY": 7
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel-btnSearch-BDI-content"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::FilterBar::Travel-btnSearch-BDI-content\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:FilterBar\\:\\:Travel-btnSearch-BDI-content"
+                ]
+            ],
+            "offsetY": 4,
+            "offsetX": 16.8125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Elementauswahl Vacation 4.052 Sunshine Travel (070001) Dumbach (000174) 30.05.2024 30.05.2024 Offen Objektstatus Warnung liegt vor Navigation",
+                    "aria/Offen Objektstatus Warnung liegt vor"
+                ],
+                [
+                    "#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:table\\:\\:Travel\\:\\:LineItem-innerTableRow-__clone10-cell7"
+                ],
+                [
+                    "xpath///*[@id=\"sap.fe.cap.travel::TravelList--fe::table::Travel::LineItem-innerTableRow-__clone10-cell7\"]"
+                ],
+                [
+                    "pierce/#sap\\.fe\\.cap\\.travel\\:\\:TravelList--fe\\:\\:table\\:\\:Travel\\:\\:LineItem-innerTableRow-__clone10-cell7"
+                ]
+            ],
+            "offsetY": 33,
+            "offsetX": 121
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#container-sap\\.fe\\.cap\\.travel---TravelObjectPage-container div.sapMObjectIdentifierTopRow",
+                "xpath///*[@id=\"__identifier1-__clone164-__clone172\"]/div[1]",
+                "pierce/#container-sap\\.fe\\.cap\\.travel---TravelObjectPage-container div.sapMObjectIdentifierTopRow"
+            ],
+            "offsetX": 109.8125,
+            "offsetY": 4
+        }
+    ]
+}
