@@ -1,0 +1,57 @@
+{
+    "title": "SFLIGHT 2",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1053,
+            "height": 921,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:4004/travel_processor/webapp/index.html",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:4004/travel_processor/webapp/index.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#__identifier0-__clone2-__clone12-txt"
+                ],
+                [
+                    "xpath///*[@id=\"__identifier0-__clone2-__clone12-txt\"]"
+                ],
+                [
+                    "pierce/#__identifier0-__clone2-__clone12-txt"
+                ],
+                [
+                    "text/Business Trip for Salvador,"
+                ]
+            ],
+            "offsetY": 9.3125,
+            "offsetX": 182
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#__text57-__clone46-__clone52",
+                "xpath///*[@id=\"__text57-__clone46-__clone52\"]",
+                "pierce/#__text57-__clone46-__clone52",
+                "text/Henry (000262)"
+            ],
+            "offsetX": 16.6171875,
+            "offsetY": 6.5
+        }
+    ]
+}
